@@ -12,11 +12,11 @@ word-by-word captions and an AI-written title. A job takes minutes.
 ## The flow
 
 1. **Rights first.** The user must own the video or hold the rights. Ask once,
-   then pass `confirm_rights=true` to `process_video`.
+   then set `confirm_rights=true` in `process_video`.
 2. **Submit.** Give `process_video` the link exactly as the user wrote it. Do
    not open, search, summarise or transcribe the URL yourself: you cannot reach
    the video and it is not needed. For a file the user shares, call
-   `create_upload` and follow its instructions, then pass `upload_id`.
+   `create_upload` and follow its instructions, then give `process_video` the `upload_id`.
 3. **Wait.** Poll `get_job_status` every 30-60 s until `completed` or `failed`.
    Tell the user it takes a few minutes; do not invent progress.
 4. **Show.** Call `list_clips` and present each clip with its title.
