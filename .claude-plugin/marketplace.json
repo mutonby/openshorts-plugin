@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "openshorts",
+  "description": "OpenShorts marketplace: the OpenShorts plugin for turning long videos into vertical clips from Claude via the hosted OpenShorts MCP server.",
+  "owner": {
+    "name": "Tonvi Tech SL",
+    "email": "info@openshorts.app",
+    "url": "https://www.openshorts.app"
+  },
+  "plugins": [
+    {
+      "name": "openshorts",
+      "source": "./",
+      "description": "Turn long videos into vertical 9:16 clips with captions, re-cut them and publish them to TikTok, Instagram Reels and YouTube Shorts, through the hosted OpenShorts MCP server (OAuth, no API key to copy).",
+      "author": {
+        "name": "Tonvi Tech SL",
+        "email": "info@openshorts.app"
+      },
+      "homepage": "https://www.openshorts.app/mcp",
+      "repository": "https://github.com/mutonby/openshorts-plugin",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["video", "clips", "shorts", "reels", "tiktok", "captions", "mcp"]
+    }
+  ]
+}
