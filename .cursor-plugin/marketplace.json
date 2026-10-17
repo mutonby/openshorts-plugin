@@ -1,0 +1,14 @@
+{
+  "name": "openshorts",
+  "owner": {
+    "name": "Tonvi Tech SL",
+    "email": "info@openshorts.app"
+  },
+  "plugins": [
+    {
+      "name": "openshorts",
+      "source": "./",
+      "description": "Turn long videos into vertical clips with captions, re-cut them and publish them to TikTok, Instagram Reels and YouTube Shorts."
+    }
+  ]
+}

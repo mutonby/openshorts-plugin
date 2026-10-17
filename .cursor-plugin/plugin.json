@@ -1,0 +1,16 @@
+{
+  "name": "openshorts",
+  "displayName": "OpenShorts",
+  "version": "1.0.0",
+  "description": "Turn long videos (podcasts, interviews, webinars, streams) into vertical 9:16 clips with captions and titles, re-cut them, and publish them to TikTok, Instagram Reels and YouTube Shorts, through the hosted OpenShorts MCP server.",
+  "author": {
+    "name": "Tonvi Tech SL",
+    "email": "info@openshorts.app",
+    "url": "https://www.openshorts.app"
+  },
+  "homepage": "https://www.openshorts.app/mcp",
+  "repository": "https://github.com/mutonby/openshorts-plugin",
+  "license": "MIT",
+  "keywords": ["video", "clips", "shorts", "reels", "tiktok", "captions", "subtitles", "mcp"],
+  "logo": "assets/logo.png"
+}

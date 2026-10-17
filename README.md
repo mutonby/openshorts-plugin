@@ -1,4 +1,4 @@
-# OpenShorts for Claude
+# OpenShorts plugin for Claude and Cursor
 
 OpenShorts turns a long video into short vertical clips for TikTok, Instagram
 Reels and YouTube Shorts. Give Claude a YouTube link (or share a video file)
@@ -10,11 +10,17 @@ captions and writes a title for each one.
 
 ## Install
 
-From the Claude directory, or in Claude Code:
+**Claude:** from the Claude directory, or in Claude Code:
 
 ```
 /plugin install openshorts --marketplace mutonby/openshorts-plugin
 ```
+
+**Cursor:** from the Cursor Marketplace, or add the server by hand in
+Settings → Tools & MCP with the URL `https://mcp.openshorts.app/mcp`.
+
+**Cline and other MCP clients:** add `https://mcp.openshorts.app/mcp` as a
+Streamable HTTP server. Step-by-step config is in [llms-install.md](llms-install.md).
 
 ## What you can do
 
